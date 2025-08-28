@@ -79,30 +79,35 @@
   text-transform: uppercase;
   color: white;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 65px;
   padding: 145px 50px 0;
   z-index: 1;
 }
 
 .aligned-text {
   display: block;
-  letter-spacing: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .aligned-text_left {
   text-align: left;
-  padding-right: 44px;
+  padding-top: 20px;
+  padding-right: 40px;
+  letter-spacing: 32px;
 }
 
 .aligned-text_center {
   text-align: center;
   margin-right: -30px;
+  letter-spacing: 32px;
+  padding-top: 11px;
 }
 
 .aligned-text_right {
   text-align: right;
   margin-right: -30px;
+  letter-spacing: 32px;
+  padding-top: 11px;
 }
 
 .cover__description {
@@ -131,7 +136,7 @@
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 500;
-  padding: 11px 31px;
+  padding: 12px 32px;
 }
 
 .lots {
@@ -141,7 +146,7 @@
   align-items: center;
   max-width: 1052px;
   min-height: 723px;
-  padding: 186px 24px 24px;
+  padding: 184px 24px 24px;
 }
 
 .lots__heading {
@@ -159,6 +164,7 @@
   display: grid;
   grid-template-columns: repeat(3, 334px);
   gap: 25px;
+  padding-top: 2px;
 }
 
 .lots__card-list-item {
@@ -190,7 +196,7 @@
   text-transform: uppercase;
   text-decoration: underline;
   text-decoration-style: solid;
-  padding: 48px 40px 30px 40px;
+  padding: 49px 40px 30px 40px;
   z-index: 1;
 }
 
@@ -232,19 +238,19 @@
   margin: 0 auto;
   gap: 72px;
   background-color: white;
-  padding: 120px 24px 180px 24px;
+  padding: 119px 24px 180px 24px;
 }
 
 .about__logo {
   background-color: #000000;
-  width: 240px;
-  height: 240px;
+  width: 245px;
+  height: 238px;
   border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 13px;
-  margin-left: 27px;
+  margin-left: 24px;
 }
 
 .about__logo-image {
@@ -260,8 +266,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 119px;
-  padding-left: 4px;
+  padding-top: 117px;
+  padding-left: 2px;
 }
 
 .about__title {
@@ -273,7 +279,6 @@
 }
 
 .about__text {
-  font-family: Raleway;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -281,7 +286,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 24px;
+  gap: 26px;
 }
 
 .footer {
