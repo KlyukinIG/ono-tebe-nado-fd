@@ -1,1 +1,338 @@
-/* место для вашего кода */
+
+.header {
+  background-color: white;
+  max-width: 1100px;
+  min-height: 293px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+}
+
+.text_underline {
+  text-decoration: underline;    
+}
+
+.header__menu {
+  color: black;
+  padding-right: 45px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__logo {
+  display: block; 
+  width: 148px;
+  height: 105px;
+}
+
+.address {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header__address {
+  justify-self: end;
+}
+
+.contact_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+.cover {  
+  max-width: 1100px;
+  min-height: 757px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  background-image: url('/ono-tebe-nado-fd/images/cover.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+} 
+
+.overlay {
+  position: absolute;
+  background: rgba(0,0,0,.6);
+  inset: 0;
+  z-index: 0;
+}
+
+.cover__title {
+  width: 100%;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 70px;
+  padding: 165px 50px 0;
+  z-index: 1;
+}
+
+.aligned-text {
+  display: block;
+  letter-spacing: 30px;
+  margin-bottom: 20px;
+}
+
+.aligned-text_left {
+  text-align: left;
+  padding-right: 44px;
+}
+
+.aligned-text_center {
+  text-align: center;
+    margin-right: -30px;
+}
+
+.aligned-text_right {
+  text-align: right;
+  margin-right: -30px;
+}
+
+.cover__description {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 105px 50px 50px;
+}
+
+.cover__description-text {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 19.8px;
+}
+
+.bet-button {
+  color:white;
+  border: 1px solid white;
+  background: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 11px 31px;
+}
+
+.lots {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1052px;
+  min-height: 723px;
+  padding: 180px 24px 24px;
+}
+
+.lots__heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+  align-self: flex-start;
+  padding-left: 40px;
+  padding-bottom: 27px;
+}
+
+.lots__card-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 334px);
+  gap: 25px;
+}
+
+
+.lots__card-list-item {
+  min-height: 596px;
+  list-style: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-link {
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  inset: 0;
+  min-height: 596px;
+  height: 100%;
+}
+
+.card__title {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  padding: 48px 40px 30px 40px;
+  z-index: 1;
+}
+
+.card__text {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  padding: 48px 40px;
+  z-index: 1;
+}
+
+.card_type_film {
+  background-image: url('/ono-tebe-nado-fd/images/card-lot-01.jpg');
+}
+
+.card_type_book {
+  background-image: url('/ono-tebe-nado-fd/images/card-lot-02.jpg');
+}
+
+.card_type_picture {
+ background-image: url('/ono-tebe-nado-fd/images/card-lot-03.jpg');
+}
+
+.lots__look-more-link {
+  padding-left: 40px;
+  padding-top: 30px;
+  align-self: flex-start;
+  text-decoration: underline;
+}
+
+.about {
+  max-width: 1052px;
+  min-height: 595px;
+  display: flex;
+  margin: 0 auto;
+  gap: 72px;
+  background-color: white;
+  max-width: 1052px; 
+  padding: 120px 24px 180px 24px;
+}
+
+.about__logo {
+  background-color: #000000;
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+.about__logo-image {
+  display: block;
+  width: 148px;
+  height: 114px;
+}
+  
+.about__column {
+  width: 693px;
+  display: flex;  
+  gap: 100px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 135px;
+}
+
+.about__title {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.about__text {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.footer {
+  max-width: 1100px;
+  min-height: 180px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-content: start;
+  align-items: start;
+}
+
+.address_footer {
+  padding-left: 50px;
+  padding-bottom: 82px;
+}
+
+.footer__menu {
+  max-width: 163px;
+  text-align: center;
+  justify-self: center;
+  padding-bottom: 115px;
+}
+
+.footer__menu-list {
+  list-style: none;
+}
+
+.footer__menu-link {
+  text-decoration: underline;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  max-width: 240px; 
+  list-style: none;
+  justify-self: end;
+  display: flex;
+  justify-content: flex-end;
+  gap: 48px;
+  padding-right: 50px;
+  padding-bottom: 180px;
+}
+
+.footer__social-list-item {
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
+}
+
+
