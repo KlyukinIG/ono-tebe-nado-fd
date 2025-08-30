@@ -165,7 +165,7 @@
 .lots__card-list {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 334px);
+  grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   padding-top: 3px;
 }
