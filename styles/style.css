@@ -88,6 +88,7 @@
   padding-top: 160px;
   z-index: 1;
   letter-spacing: 0.3em;
+  position: relative;
 }
 
 .aligned-text {
@@ -120,6 +121,7 @@
   justify-content: space-between;
   z-index: 1;
   padding: 85px 0 50px 0;
+  position: relative;
 }
 
 .cover__description-text {
