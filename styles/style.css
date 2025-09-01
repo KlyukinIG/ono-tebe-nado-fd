@@ -295,8 +295,7 @@
   background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-content: start;
-  align-items: start;
+  justify-self: center;
   padding: 180px 50px 82px 50px;
 }
 
@@ -328,11 +327,14 @@
   text-decoration: none;
 }
 
+.footer__social-list_aligned {
+  justify-self: end;
+}
+
 .footer__social-list {
   max-width: 240px;
   width: 100%;
   list-style: none;
-  justify-self: end;
   display: flex;
   justify-content: flex-end;
   gap: 48px;
